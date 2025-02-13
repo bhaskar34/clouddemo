@@ -1,0 +1,68 @@
+body {
+    background-color: bisque;
+    text-align: center;
+}
+
+div {
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    color: black;
+}
+
+input {
+    padding: 8px;
+    width: 200px;
+    font-size: 16px;
+}
+
+button {
+    height: 30px;
+    width: 50px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+ul {
+    list-style-type: none;
+    background-color: aliceblue;
+    color: brown;
+    padding: 10px;
+    margin: 0 auto;
+    width: 50%;
+    border-radius: 5px;
+}
+
+li {
+    padding: 8px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+li button {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+li button:hover {
+    background-color: darkred;
+}
